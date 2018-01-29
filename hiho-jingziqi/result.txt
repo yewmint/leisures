@@ -1,0 +1,5 @@
+Invalid
+X win
+Draw
+Next win
+Next cannot win
