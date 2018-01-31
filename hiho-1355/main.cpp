@@ -11,6 +11,7 @@
 
 using namespace std;
 
+// WA
 int main() {
 	long long N, M;
 	cin >> N >> M;
@@ -28,7 +29,7 @@ int main() {
 
 	long long sentLen = -1;
 	for (string &word : words) {
-		sentLen += word.size() + 2;
+		sentLen += word.size() + 1;
 	}
 
 	long long curRow = 0;
@@ -36,6 +37,7 @@ int main() {
 	long long timeLeft = N;
 	long long curWordIdx = 0;
 	bool needSpace = false;
+	bool isLastLineEmpty = false;
 
 	while (timeLeft > 0) {
 		timeSeq.push_back(N - timeLeft);
@@ -51,6 +53,7 @@ int main() {
 		}
 
 		curCol = 0;
+		isLastLineEmpty = true;
 
 		if (needSpace) {
 			curCol++;
@@ -58,6 +61,7 @@ int main() {
 		}
 
 		while (M - curCol >= words[curWordIdx].size()) {
+			isLastLineEmpty = false;
 			curCol += words[curWordIdx].size();
 			if (++curWordIdx >= words.size()) {
 				curWordIdx = 0;
@@ -82,6 +86,7 @@ int main() {
 					timeLeft -= passNum;
 
 					if (timeLeft <= 0) {
+						curCol--;
 						break;
 					}
 				}
@@ -103,7 +108,7 @@ int main() {
 
 		long long baseRow = loopBeginRow + (N - loopBeginTimes) / loopTimeNum * loopRowNum;
 
-		curCol--;
+		// curCol--;
 		curRow = 0;
 		timeLeft = (N - loopBeginTimes) % loopTimeNum;
 		auto beginHead = headSeq[loopBeginRow];
@@ -141,6 +146,7 @@ int main() {
 						timeLeft -= passNum;
 
 						if (timeLeft <= 0) {
+							curCol--;
 							break;
 						}
 					}
@@ -150,14 +156,10 @@ int main() {
 			curRow++;
 		}
 
-		auto lastHead = headSeq.back();
-		if (lastHead.first == 0 && lastHead.second == true) {
+		if (isLastLineEmpty) {
 			curRow--;
 		}
 
 		cout << baseRow + curRow << " " << curCol;
 	}
-
-	// pass test cases on https://github.com/LightningBilly/ACMAlgorithms/tree/master/hihocoder/1355-%E7%BD%9A%E6%8A%84%E4%B8%80%E7%99%BE%E9%81%8D
-	// but still got WA
 }
