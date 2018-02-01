@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1356", "1356\1356.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho-1355", "hiho-1355\hiho-1355.vcxproj", "{F2CA58BB-5B18-4E34-B781-C0151613CB07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho-1354", "hiho-1354\hiho-1354.vcxproj", "{E8F62367-66D7-484F-B11F-18B93152AECF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{F2CA58BB-5B18-4E34-B781-C0151613CB07}.Release|x64.Build.0 = Release|x64
 		{F2CA58BB-5B18-4E34-B781-C0151613CB07}.Release|x86.ActiveCfg = Release|Win32
 		{F2CA58BB-5B18-4E34-B781-C0151613CB07}.Release|x86.Build.0 = Release|Win32
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Debug|x64.ActiveCfg = Debug|x64
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Debug|x64.Build.0 = Debug|x64
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Debug|x86.Build.0 = Debug|Win32
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Release|x64.ActiveCfg = Release|x64
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Release|x64.Build.0 = Release|x64
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Release|x86.ActiveCfg = Release|Win32
+		{E8F62367-66D7-484F-B11F-18B93152AECF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
