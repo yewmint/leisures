@@ -17,13 +17,15 @@
 typedef long long ll;
 using namespace std;
 
-int region[1006][1006] = { 0 };
 int parent[1006][1006][2] = { 0 };
+int ranker[1006][1006] = { 0 };
 
 int dirs[5] = { -1, 0, 1, 0, -1 };
 
+int regionNum = 0;
+
 void root(int row, int col, int &rootRow, int &rootCol) {
-	while (parent[row][col][0] != 0 || parent[row][col][1] != 0) {
+	while (parent[row][col][0] != row || parent[row][col][1] != col) {
 		int *pos = parent[row][col];
 		row = pos[0];
 		col = pos[1];
@@ -33,17 +35,45 @@ void root(int row, int col, int &rootRow, int &rootCol) {
 	rootCol = col;
 }
 
+void mergeUnion(int arow, int acol, int brow, int bcol) {
+	int rarow, racol;
+	root(arow, acol, rarow, racol);
+
+	int rbrow, rbcol;
+	root(brow, bcol, rbrow, rbcol);
+
+	if (rarow == rbrow && racol == rbcol) {
+		return;
+	}
+
+	regionNum--;
+
+	if (ranker[rarow][racol] > ranker[rbrow][rbcol]) {
+		parent[rbrow][rbcol][0] = rarow;
+		parent[rbrow][rbcol][1] = racol;
+		ranker[rarow][racol] += ranker[rbrow][rbcol];
+	}
+	else {
+		parent[rarow][racol][0] = rbrow;
+		parent[rarow][racol][1] = rbcol;
+		ranker[rbrow][rbcol] += ranker[rarow][racol];
+	}
+}
+
 int main() {
 	int N;
 	scanf("%d", &N);
 
-	int regionIdx = 0;
-	int regionNum = 0;
 	for (int i = 0; i < N; ++i) {
 		int row, col;
 		scanf("%d %d", &row, &col);
 		++row;
 		++col;
+
+		ranker[row][col] = 1;
+		parent[row][col][0] = row;
+		parent[row][col][1] = col;
+		regionNum++;
 
 		bool isParented = false;
 		for (int i = 0; i < 4; ++i) {
@@ -54,30 +84,9 @@ int main() {
 				continue;
 			}
 
-			int rootRow, rootCol;
-			root(curRow, curCol, rootRow, rootCol);
-			int reg = region[rootRow][rootCol];
-
-			if (reg > 0) {
-				if (isParented) {
-					int myRootRow, myRootCol;
-					root(row, col, myRootRow, myRootCol);
-
-					parent[rootRow][rootCol][0] = myRootRow;
-					parent[rootRow][rootCol][1] = myRootCol;
-					regionNum--;
-				}
-				else {
-					parent[row][col][0] = rootRow;
-					parent[row][col][1] = rootCol;
-					isParented = true;
-				}
+			if (ranker[curRow][curCol] > 0) {
+				mergeUnion(row, col, curRow, curCol);
 			}
-		}
-
-		if (!isParented) {
-			region[row][col] = ++regionIdx;
-			regionNum++;
 		}
 
 		printf("%d\n", regionNum);
