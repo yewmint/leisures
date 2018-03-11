@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho-jingziqi", "hiho-jingziqi\hiho-jingziqi.vcxproj", "{B8B5CBCC-E107-4F34-860C-5F9127443787}"
 EndProject
@@ -82,6 +82,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leet-295", "leet-295\leet-295.vcxproj", "{18439D9B-8378-42EB-B073-87C372565043}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leet-297", "leet-297\leet-297.vcxproj", "{17606597-017A-4ED8-A7E1-648BC2D00F43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leet-312", "leet-312\leet-312.vcxproj", "{44105DA1-6637-4B70-A637-A6F7F395E47F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,14 @@ Global
 		{17606597-017A-4ED8-A7E1-648BC2D00F43}.Release|x64.Build.0 = Release|x64
 		{17606597-017A-4ED8-A7E1-648BC2D00F43}.Release|x86.ActiveCfg = Release|Win32
 		{17606597-017A-4ED8-A7E1-648BC2D00F43}.Release|x86.Build.0 = Release|Win32
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Debug|x64.ActiveCfg = Debug|x64
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Debug|x64.Build.0 = Debug|x64
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Debug|x86.ActiveCfg = Debug|Win32
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Debug|x86.Build.0 = Debug|Win32
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Release|x64.ActiveCfg = Release|x64
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Release|x64.Build.0 = Release|x64
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Release|x86.ActiveCfg = Release|Win32
+		{44105DA1-6637-4B70-A637-A6F7F395E47F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
