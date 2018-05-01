@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiho-1335", "hiho-1335\hiho
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leet-352", "leet-352\leet-352.vcxproj", "{3D5198D4-B626-4D6E-A07D-FB64C070F4F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leet-354", "leet-354\leet-354.vcxproj", "{762686F6-DA99-4AE2-B86A-05435CBCFA91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -731,6 +733,14 @@ Global
 		{3D5198D4-B626-4D6E-A07D-FB64C070F4F3}.Release|x64.Build.0 = Release|x64
 		{3D5198D4-B626-4D6E-A07D-FB64C070F4F3}.Release|x86.ActiveCfg = Release|Win32
 		{3D5198D4-B626-4D6E-A07D-FB64C070F4F3}.Release|x86.Build.0 = Release|Win32
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Debug|x64.ActiveCfg = Debug|x64
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Debug|x64.Build.0 = Debug|x64
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Debug|x86.ActiveCfg = Debug|Win32
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Debug|x86.Build.0 = Debug|Win32
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Release|x64.ActiveCfg = Release|x64
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Release|x64.Build.0 = Release|x64
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Release|x86.ActiveCfg = Release|Win32
+		{762686F6-DA99-4AE2-B86A-05435CBCFA91}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
