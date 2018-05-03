@@ -32,40 +32,32 @@ struct TreeNode {
 
 #define mp make_pair
 
-struct NumIt {
-	int num;
-	list<int>::iterator it;
-	NumIt(int num, list<int>::iterator it) : num(num), it(it) {};
-};
-
-auto cmp = [](NumIt &a, NumIt &b) {
-	return a.num > b.num;
-};
-
 int maxCoins(vector<int>& nums) {
-	int ret = 0;
-	list<int> numbers;
-	priority_queue<NumIt, vector<NumIt>, decltype(cmp)> heap(cmp);
+	int N = nums.size();
+	nums.insert(nums.begin(), 1);
+	nums.insert(nums.end(), 1);
 
-	for (auto num : nums) {
-		numbers.push_back(num);
-		heap.push(NumIt(num, --numbers.end()));
+	vector<vector<int>> dp(nums.size(), vector<int>(nums.size(), 0));
+	for (int len = 1; len <= N; ++len) {
+		for (int left = 1; left <= N - len + 1; ++left) {
+			int right = left + len - 1;
+
+			int maxSum = 0;
+			for (int last = left; last <= right; ++last) {
+				int sum = dp[left][last - 1] + dp[last + 1][right];
+				sum += nums[left - 1] * nums[last] * nums[right + 1];
+				maxSum = max(maxSum, sum);
+			}
+			dp[left][right] = maxSum;
+		}
 	}
 
-	while (!heap.empty()) {
-		auto it = heap.top().it;
-		heap.pop();
-
-		int a = 0;
-		int b = 0;
-		int c = 0;
-	}
-
-	return ret;
+	return dp[1][N];
 }
 
 int main() {
-	vector<int> arg0 = { 3, 1, 5, 8 };
-	cout << maxCoins(arg0) << endl;
+	vector<int> arg0 = { 9,76,64,21,97,60 };
+	cout << maxCoins(arg0);
+
 	cin.get();
 }

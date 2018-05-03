@@ -1,0 +1,5 @@
+4
+bob 1 bob@qq.com
+alice 2 alice@hihocoder.com alice@gmail.com
+alicebest 2 alice@gmail.com alice@qq.com
+alice2016 1 alice@qq.com 

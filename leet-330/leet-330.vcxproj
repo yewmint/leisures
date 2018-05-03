@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{44105DA1-6637-4B70-A637-A6F7F395E47F}</ProjectGuid>
-    <RootNamespace>leet312</RootNamespace>
+    <ProjectGuid>{73ED07D8-F66D-4896-9514-E4828EE089D9}</ProjectGuid>
+    <RootNamespace>leet330</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
