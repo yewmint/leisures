@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{44105DA1-6637-4B70-A637-A6F7F395E47F}</ProjectGuid>
+    <ProjectGuid>{27B445BF-8E03-43D5-8643-A762917FA8C7}</ProjectGuid>
     <RootNamespace>leet312</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
