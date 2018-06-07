@@ -42,8 +42,8 @@ struct Interval {
 typedef pair<int, int> pii;
 typedef long long ll;
 
-int getGap(int n, int a, int b) {
-	int gap = 0;
+ll getGap(ll n, ll a, ll b) {
+	ll gap = 0;
 	while (a <= n) {
 		gap += min(b, n + 1) - a;
 		a *= 10;
@@ -53,10 +53,10 @@ int getGap(int n, int a, int b) {
 }
 
 int findKthNumber(int n, int k) {
-	int cur = 1;
-	int remain = k - 1;
+	ll cur = 1;
+	ll remain = k - 1;
 	while (remain > 0) {
-		int gap = 0;
+		ll gap = 0;
 		if (cur + 1 <= n) gap = getGap(n, cur, cur + 1);
 
 		if (cur + 1 <= n && gap <= remain) {
