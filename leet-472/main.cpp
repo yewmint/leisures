@@ -42,56 +42,93 @@ struct Interval {
 typedef pair<int, int> pii;
 typedef long long ll;
 
-bool canForm(const string & word, const unordered_set<string> & elements) {
-	if (elements.empty()) return false;
+class Solution {
+public:
 
-	vector<bool> formEndWith(word.size() + 1);
-	
-	formEndWith[0] = true;
-	for (int i = 1; i <= word.size(); ++i) {
-		for (int j = 0; j < i; ++j) {
-			if (formEndWith[j] && elements.count(word.substr(j, i - j)) > 0) {
-				formEndWith[i] = true;
-			}
+	template<typename T1, typename T2>
+	T1 sc(T2 val) {
+		return static_cast<T1>(val);
+	}
+
+	multiset<int> leftSet;
+	multiset<int> rightSet;
+
+	void insert(int val) {
+		if (rightSet.empty() || val < *rightSet.begin()) {
+			leftSet.insert(val);
+		}
+		else {
+			rightSet.insert(val);
+		}
+
+		adjust();
+	}
+
+	void remove(int val) {
+		if (rightSet.empty() || val < *rightSet.begin()) {
+			auto pos = leftSet.find(val);
+			leftSet.erase(pos);
+		}
+		else {
+			auto pos = rightSet.find(val);
+			rightSet.erase(pos);
+		}
+
+		adjust();
+	}
+
+	void adjust() {
+		if (rightSet.size() > leftSet.size()) {
+			int val = *rightSet.begin();
+			rightSet.erase(rightSet.begin());
+			leftSet.insert(val);
+		}
+		else if (leftSet.size() > rightSet.size() + 1) {
+			int val = *leftSet.rbegin();
+			leftSet.erase(next(leftSet.rbegin()).base());
+			rightSet.insert(val);
 		}
 	}
 
-	return formEndWith[word.size()];
-}
-
-vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
-	sort(
-		words.begin(), 
-		words.end(), 
-		[](const string & a, const string & b) -> bool { return a.size() < b.size(); }
-	);
-
-	vector<string> ret;
-	unordered_set<string> elements;
-	for (const string & word : words) {
-		if (canForm(word, elements)) {
-			ret.push_back(word);
+	double getMedian() {
+		if (leftSet.size() > rightSet.size()) {
+			return *leftSet.rbegin();
 		}
-		elements.insert(word);
+		else {
+			return (sc<double>(*leftSet.rbegin()) + sc<double>(*rightSet.begin())) / 2.0;
+		}
 	}
 
+	vector<double> medianSlidingWindow(vector<int>& nums, int k) {
+		if (nums.empty() || k == 0) {
+			return {};
+		}
 
-	return ret;
-}
+		for (int i = 0; i < k - 1; ++i) {
+			insert(nums[i]);
+		}
+
+		vector<double> ret;
+		for (int i = k - 1; i < nums.size(); ++i) {
+			insert(nums[i]);
+			ret.push_back(getMedian());
+			remove(nums[i - k + 1]);
+		}
+
+		return ret;
+	}
+};
 
 int main() {
-	vector<string> arg0 = {
-		"cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"
-	};
+	Solution s;
+	vector<int> nums = { 1,3,-1,-3,5,3,6,7 };
+	vector<int> nums2 = { 5, 2, 2, 7, 3, 7, 9, 0, 2, 3 };
+	vector<int> nums3 = { 7,0,3,9,9,9,1,7,2,3 };
 
-	auto ans = findAllConcatenatedWordsInADict(arg0);
-	for (auto line : ans) {
-		cout << line << endl;
+	auto ans = s.medianSlidingWindow(nums3, 6);
+	for (auto num : ans) {
+		cout << num << endl;
 	}
-
-	//set<string> t0 = { "dog", "cat", "got" };
-	//string word = "doggot";
-	//cout << boolalpha << canForm(word, t0);
 
 	cin.get();
 }

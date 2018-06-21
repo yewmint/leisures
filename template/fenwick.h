@@ -6,7 +6,8 @@
 namespace yewmint {
 
 /**
-* Fenwick tree to count sum of 0...k elements in O(logn)
+* Fenwick tree to count sum of [0, k] elements in O(logn)
+* Caveat: Index of fenwick tree behaves like vector in range [0, Fenwick::size() - 1]
 *
 * @typename T type of value to be counted
 */
@@ -51,7 +52,7 @@ public:
 	}
 
 	/**
-	* Count sum of elements from 0 to index
+	* Get sum of elements in [0, index] where index < Fenwick::size()
 	*
 	* @param sum index of last included element
 	*/
