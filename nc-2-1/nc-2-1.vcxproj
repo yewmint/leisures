@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{1DB74E21-3DDB-4D9D-B914-E9417CA4DF94}</ProjectGuid>
-    <RootNamespace>hiho1336</RootNamespace>
+    <ProjectGuid>{DF5FEEEC-5D23-47AB-95A1-855CB1ED29BF}</ProjectGuid>
+    <RootNamespace>nc21</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="geometry.h" />
-    <ClInclude Include="quadtree.h" />
+    <ClInclude Include="QuadTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

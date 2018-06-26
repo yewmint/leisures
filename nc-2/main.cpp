@@ -28,6 +28,8 @@ int traverse(vector<int> & weights, int idx, int remain, int size) {
 	if (idx >= weights.size()) {
 		return 1;
 	}
+
+	
 }
 
 int main() {
