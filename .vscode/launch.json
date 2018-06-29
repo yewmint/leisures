@@ -1,0 +1,68 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++ Launch hiho-week-208",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/hiho-week-208/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/hiho-week-208",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch leet-514",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/leet-514/main",
+      "args": ["-fThreading"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/leet-514",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    }
+  ]
+}
