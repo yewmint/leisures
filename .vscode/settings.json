@@ -4,6 +4,13 @@
     "iostream": "cpp",
     "chrono": "cpp",
     "limits": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "array": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "string_view": "cpp",
+    "utility": "cpp",
+    "complex": "cpp",
+    "ostream": "cpp"
   }
 }
