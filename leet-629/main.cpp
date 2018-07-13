@@ -12,46 +12,30 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef long long ll;
 
-int counts[33][2];
+int kInversePairs(int n, int k) {
+	vector<vector<ll>> revCount(n + 1, vector<ll>(k + 1, 0));
+	revCount[1][0] = 1;
 
-int findIntegers(int num) {
-	counts[1][0] = counts[1][1] = 1;
-	for (int i = 2; i <= 32; ++i){
-		counts[i][0] = counts[i - 1][0] + counts[i - 1][1];
-		counts[i][1] = counts[i - 1][0];
-	}
-
-	int maxBit = 0, tmpNum = num;
-	while (tmpNum > 0) {
-		maxBit++;
-		tmpNum >>= 1;
-	}
-
-	int ret = 0;
-	bool isConsecutive = false;
-	int last = -1;
-	for (int bit = maxBit - 1; bit >= 0; --bit){
-		if ((num >> bit) & 0x1 == 1){
-			ret += counts[bit + 1][0];
-
-			if (last == 1){
-				isConsecutive = true;
-				break;
+	for (int num = 2; num <= n; ++num){
+		ll sum = 0;
+		for (int rev = 0; rev <= k; ++rev){
+			sum += revCount[num - 1][rev];
+			if (rev >= num) {
+				sum -= revCount[num - 1][rev - num];
+				if (sum == 0) break;
 			}
+
+			revCount[num][rev] = sum % 1000000007;
 		}
-
-		last = (num >> bit) & 0x1;
 	}
 
-	if (!isConsecutive){
-		ret++;
-	}
-
-	return ret;
+	return revCount[n][k] % 1000000007;
 }
 
 int main() {
-	cout << findIntegers(5) << endl;
+	// cout << kInversePairs(3, 0) << endl;
+	// cout << kInversePairs(3, 1) << endl;
+	cout << kInversePairs(1000, 1000) << endl;
 
 	cout << "finished" << endl;
 	cin.get();
