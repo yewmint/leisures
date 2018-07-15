@@ -12,70 +12,65 @@ using namespace std;
 typedef pair<int, int> pii;
 typedef long long ll;
 
-vector<int> smallestRange(vector<vector<int>>& nums) {
-	vector<pair<int, int>> sorted;
-	for (int row = 0; row < nums.size(); ++row){
-		for (int col = 0; col < nums[row].size(); ++col){
-			sorted.push_back(mp(nums[row][col], row));
+const ll MOD = 1e9 + 7;
+
+int numDecodings(string s) {
+	vector<ll> count(s.size() + 1, 1);
+	string str = string("#") + s;
+
+	for (int idx = 1; idx < str.size(); ++idx){
+		char cur = str[idx];
+		char prev = str[idx - 1];
+
+		if (cur == '0'){
+			if (prev == '1' || prev == '2'){
+				count[idx] = count[idx - 2];
+			}
+			else if (prev == '*'){
+				count[idx] = 2 * count[idx - 2] % MOD;
+			}
+			else {
+				return 0;
+			}
+		}
+		else if (cur - '0' >= 1 && cur - '0' <= 6){
+			count[idx] = count[idx - 1];
+
+			if (prev == '1' || prev == '2'){
+				count[idx] += count[idx - 2];
+			}
+			else if (prev == '*'){
+				count[idx] += 2 * count[idx - 2] % MOD;
+			}
+		}
+		else if (cur - '0' >= 7 && cur - '0' <= 9){
+			count[idx] = count[idx - 1];
+
+			if (prev == '1' || prev == '*'){
+				count[idx] += count[idx - 2];
+			}
+		}
+		else if (cur == '*'){
+			count[idx] = 9 * count[idx - 1] % MOD;
+
+			if (prev == '1'){
+				count[idx] += 9 * count[idx - 2] % MOD;
+			}
+			else if (prev == '2'){
+				count[idx] += 6 * count[idx - 2] % MOD;
+			}
+			else if (prev == '*'){
+				count[idx] += 15 * count[idx - 2] % MOD;
+			}
 		}
 	}
 
-	sort(sorted.begin(), sorted.end());
-
-	auto minRange = mp(0, INT_MAX);
-	int remainRow = nums.size();
-	vector<int> selectCount(nums.size(), 0);
-	int left = -1, right = -1;
-
-	bool moved = true;
-	while (moved){
-		moved = false;
-
-		while (right + 1 < sorted.size() && remainRow > 0){
-			moved = true;
-			right++;
-			int num = sorted[right].first;
-			int row = sorted[right].second;
-
-			if (selectCount[row] == 0){
-				remainRow--;
-			}
-			selectCount[row]++;
-		}
-
-		// cout << "right to " << right << endl;
-
-		while (left <= right && remainRow <= 0){
-			moved = true;
-			left++;
-			int num = sorted[left].first;
-			int row = sorted[left].second;
-
-			selectCount[row]--;
-			if (selectCount[row] <= 0){
-				remainRow++;
-			}
-		}
-
-		// cout << "left to " << left << endl;
-
-		if (minRange.second - minRange.first > 
-			sorted[right].first - sorted[left].first){
-			minRange = mp(sorted[left].first, sorted[right].first);
-
-			// cout << "Updated !" << endl;
-		}
-	}
-
-	return vector<int>({ minRange.first, minRange.second });
+	return count[str.size() - 1] % MOD;
 }
 
 int main() {
-	vector<vector<int>> arg0 = {{4,10,15,24,26}, {0,9,12,20}, {5,18,22,30}};
-	auto ans = smallestRange(arg0);
-	for (int num : ans){
-		cout << num << endl;
-	}
+	// cout << numDecodings("1*") << endl;
+	cout << numDecodings("**********1111111111") << endl;
 
 	cout << "finished" << endl;
 	cin.get();
