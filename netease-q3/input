@@ -1,0 +1,37 @@
+2
+
+10 6 3
+1 1 300
+2 2 250
+3 3 200
+4 5 100
+6 8 50
+9 10 10
+10 50 100 150
+5 1
+0 Apple Ball
+1 Cat Dog
+2 Elephane Fish
+5 Gorilla Hat
+8 Igloo Juice
+10 Cat Cat
+10 Elephane Igloo
+15 Gorilla Elephane
+20 Apple Gorilla
+
+10 4 4
+6 10 10
+4 5 20
+2 3 25
+1 1 30
+1 5 10 15 30
+2 50
+5 Apple apple
+15 appleApple Apple
+18 Gorilla Fish
+20 Gorilla Hat
+20 Igloo Juice
+30 Gorilla appleApple
+40 Elephane Igloo
+55 Gorilla Elephane
+60 Appleapple Gorilla

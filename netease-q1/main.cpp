@@ -10,27 +10,45 @@ ll scll(T val){
 	return static_cast<ll>(val);
 }
 
-#define MAXN 100006
-int N, A[MAXN];
+int N;
 
 int main() {
 	scanf("%d", &N);
-	for (int i = 0; i < N; ++i){
-		scanf("%d", &A[i]);
-	}
+	while (N--){
+		int salary;
+		scanf("%d", &salary);
+		salary -= 5000;
 
-	ll result = 0;
-	for (int i = 0; i < 31; ++i){
-		int oneCount = 0;
-		for (int j = 0; j < N; ++j){
-			if (A[j] & 0x1 == 0x1) {
-				oneCount++;
-			}
-			A[j] >>= 1;
+		int tax = 0;
+
+		if (salary > 0){
+			tax += round(min(3000, (salary - 0)) * 0.03);
 		}
 
-		result += scll(oneCount) * scll(N - oneCount);
-	}
+		if (salary > 3000){
+			tax += round(min(9000, (salary - 3000)) * 0.1);
+		}
 
-	printf("%lld", result);
+		if (salary > 12000){
+			tax += round(min(13000, (salary - 12000)) * 0.2);
+		}
+
+		if (salary > 25000){
+			tax += round(min(10000, (salary - 25000)) * 0.25);
+		}
+
+		if (salary > 35000){
+			tax += round(min(20000, (salary - 35000)) * 0.3);
+		}
+
+		if (salary > 55000){
+			tax += round(min(25000, (salary - 55000)) * 0.35);
+		}
+
+		if (salary > 80000){
+			tax += round((salary - 80000) * 0.45);
+		}
+
+		printf("%d\n", tax);
+	}
 }
