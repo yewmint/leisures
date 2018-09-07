@@ -10,10 +10,21 @@ ll scll(T val){
 	return static_cast<ll>(val);
 }
 
-ll n, m;
+ll n;
 
 int main() {
-	scanf("%lld%lld", &n, &m);
-
-	printf("%lld", n / 2 * m);
+	scanf("%lld", &n);
+    int ret = 0;
+		bool rev = false;
+    
+    if (n < 0){
+        n ^= 0xffffffffffffffffll;
+				rev = true;
+    }
+    
+    while (n > 0){
+        ret++;
+        n &= (n - 1);
+    }
+    printf("%d", rev ? 64 - ret : ret);
 }
