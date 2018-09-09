@@ -5,6 +5,126 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "C++ Launch toutiao-5",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/toutiao-5/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/toutiao-5",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch toutiao-4",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/toutiao-4/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/toutiao-4",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch toutiao-3",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/toutiao-3/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/toutiao-3",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch toutiao-2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/toutiao-2/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/toutiao-2",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
       "name": "C++ Launch toutiao-1",
       "type": "cppdbg",
       "request": "launch",
