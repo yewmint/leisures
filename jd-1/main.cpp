@@ -10,51 +10,52 @@ ll scll(T val){
   return static_cast<ll>(val);
 }
 
-int n, m;
+int T, N, M, X, Y;
 
 int main() {
-  scanf("%d%d", &n, &m);
-  vector<vector<int>> edges(m, vector<int>());
-  for (int i = 0; i < m; ++i){
-    int a, b;
-    scanf("%d%d", &a, &b);
-    edges[b - 1].push_back(a - 1);
-  }
+  scanf("%d", &T);
+  while(T--){
+    scanf("%d%d", &N, &M);
+    vector<vector<int>> groups;
+    vector<set<int>> edges(N, set<int>());
+    while (M--) {
+      scanf("%d%d", &X, &Y);
+      edges[X - 1].insert(Y - 1);
+      edges[Y - 1].insert(X - 1);
+    }
 
-  set<int> hots;
-  for (int i = 0; i < n; ++i){
+    bool isBad = false;
+    for (int node = 0; node < N && !isBad; ++node){
+      bool inserted = false;
 
-    vector<bool> visited(n, false);
-    visited[i] = true;
-    int visitNum = 1;
-    vector<int> stk = { i };
-
-    bool isHot = false;
-    while (!stk.empty()){
-      int node = stk.back();
-      stk.pop_back();
-      for (auto & child : edges[node]){
-        if (hots.count(child) > 0){
-          isHot = true;
+      for (auto &group : groups){
+        int edgeWithGroup = 0;
+        for (int groupNode : group){
+          if (edges[node].count(groupNode) > 0){
+            edgeWithGroup++;
+          }
+        }
+        if (edgeWithGroup == 0){
+          if (inserted){
+            isBad = true;
+            break;
+          }
+          else {
+            group.push_back(node);
+            inserted = true;
+          }
+        }
+        else if (edgeWithGroup < group.size()){
+          isBad = true;
           break;
         }
-
-        if (!visited[child]){
-          visited[child] = true;
-          stk.push_back(child);
-          visitNum++;
-        }
       }
 
-      if (isHot){
-        break;
+      if (!inserted){
+        groups.push_back(vector<int>({ node }));
       }
     }
-
-    if (isHot || visitNum == n){
-      hots.insert(i);
-    }
+    
+    printf("%s\n", isBad ? "No" : "Yes");
   }
-
-  printf("%d", hots.size());
 }
