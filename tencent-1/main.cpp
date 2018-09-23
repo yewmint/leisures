@@ -4,57 +4,49 @@ using namespace std;
 #define mp make_pair
 typedef pair<int, int> pii;
 typedef long long ll;
+typedef unsigned long long ull;
 
 template<typename T>
 ll scll(T val){
   return static_cast<ll>(val);
 }
 
-int n, m;
+int n;
+
+int gcd(int a, int b) { 
+  if (b == 0) return a; 
+  return gcd(b, a % b); 
+}
 
 int main() {
-  scanf("%d%d", &n, &m);
-  vector<vector<int>> edges(m, vector<int>());
-  for (int i = 0; i < m; ++i){
-    int a, b;
-    scanf("%d%d", &a, &b);
-    edges[b - 1].push_back(a - 1);
+  scanf("%d", &n);
+
+  list<int> remains;
+  for (int i = 2; i <= n; ++i){
+    remains.push_back(i);
   }
 
-  set<int> hots;
-  for (int i = 0; i < n; ++i){
+  int m = n + 1;
+  while (m < n * 2){
+    int tmp = m;
+    for (auto it = remains.begin(); it != remains.end();){
+      int val = *it;
+      int gcdVal = gcd(tmp, val);
+      it++;
 
-    vector<bool> visited(n, false);
-    visited[i] = true;
-    int visitNum = 1;
-    vector<int> stk = { i };
+      if (gcdVal != 1){
+        remains.erase(prev(it));
+        tmp /= gcdVal;
 
-    bool isHot = false;
-    while (!stk.empty()){
-      int node = stk.back();
-      stk.pop_back();
-      for (auto & child : edges[node]){
-        if (hots.count(child) > 0){
-          isHot = true;
-          break;
+        if (val != gcdVal){
+          remains.push_back(val / gcdVal);
         }
-
-        if (!visited[child]){
-          visited[child] = true;
-          stk.push_back(child);
-          visitNum++;
-        }
-      }
-
-      if (isHot){
-        break;
       }
     }
 
-    if (isHot || visitNum == n){
-      hots.insert(i);
-    }
+    if (remains.empty()) break;
+    m++;
   }
 
-  printf("%d", hots.size());
+  printf("%d", m);
 }

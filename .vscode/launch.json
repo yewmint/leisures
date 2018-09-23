@@ -5,6 +5,96 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "C++ Launch tencent-3",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/tencent-3/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/tencent-3",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch tencent-2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/tencent-2/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/tencent-2",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name": "C++ Launch tencent-1",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/mnt/e/Repository/leisures/tencent-1/main",
+      "args": ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry": false,
+      "cwd": "/mnt/e/Repository/leisures/tencent-1",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+          "MIMode": "gdb",
+          "setupCommands": [
+              {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd": "",
+          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs": ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
       "name": "C++ Launch median-of-2-sorteds",
       "type": "cppdbg",
       "request": "launch",
