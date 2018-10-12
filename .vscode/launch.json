@@ -2,32 +2,32 @@
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-  "version": "0.2.0",
+  "version"       : "0.2.0",
   "configurations": [
     {
-      "name": "C++ Launch cf-513-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/cf-513-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/cf-513-3",
-      "environment": [],
+      "name"           : "C++ Launch nvidia-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/nvidia-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/nvidia-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -35,29 +35,29 @@
       }
     },
     {
-      "name": "C++ Launch cf-513-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/cf-513-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/cf-513-2",
-      "environment": [],
+      "name"           : "C++ Launch cf-513-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/cf-513-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/cf-513-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -65,29 +65,29 @@
       }
     },
     {
-      "name": "C++ Launch cf-513-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/cf-513-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/cf-513-1",
-      "environment": [],
+      "name"           : "C++ Launch cf-513-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/cf-513-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/cf-513-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -95,29 +95,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-jam-78-4",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-jam-78-4/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-jam-78-4",
-      "environment": [],
+      "name"           : "C++ Launch cf-513-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/cf-513-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/cf-513-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -125,29 +125,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-jam-78-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-jam-78-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-jam-78-3",
-      "environment": [],
+      "name"           : "C++ Launch hiho-jam-78-4",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-jam-78-4/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-jam-78-4",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -155,29 +155,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-jam-78-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-jam-78-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-jam-78-2",
-      "environment": [],
+      "name"           : "C++ Launch hiho-jam-78-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-jam-78-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-jam-78-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -185,29 +185,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-jam-78-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-jam-78-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-jam-78-1",
-      "environment": [],
+      "name"           : "C++ Launch hiho-jam-78-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-jam-78-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-jam-78-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -215,29 +215,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-44",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-44/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-44",
-      "environment": [],
+      "name"           : "C++ Launch hiho-jam-78-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-jam-78-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-jam-78-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -245,29 +245,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-10",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-10/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-10",
-      "environment": [],
+      "name"           : "C++ Launch leet-44",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-44/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-44",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -275,29 +275,29 @@
       }
     },
     {
-      "name": "C++ Launch tencent-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/tencent-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/tencent-3",
-      "environment": [],
+      "name"           : "C++ Launch leet-10",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-10/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-10",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -305,29 +305,29 @@
       }
     },
     {
-      "name": "C++ Launch tencent-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/tencent-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/tencent-2",
-      "environment": [],
+      "name"           : "C++ Launch tencent-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/tencent-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/tencent-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -335,29 +335,29 @@
       }
     },
     {
-      "name": "C++ Launch tencent-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/tencent-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/tencent-1",
-      "environment": [],
+      "name"           : "C++ Launch tencent-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/tencent-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/tencent-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -365,29 +365,29 @@
       }
     },
     {
-      "name": "C++ Launch median-of-2-sorteds",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/median-of-2-sorteds/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/median-of-2-sorteds",
-      "environment": [],
+      "name"           : "C++ Launch tencent-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/tencent-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/tencent-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -395,29 +395,29 @@
       }
     },
     {
-      "name": "C++ Launch jd-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/jd-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/jd-1",
-      "environment": [],
+      "name"           : "C++ Launch median-of-2-sorteds",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/median-of-2-sorteds/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/median-of-2-sorteds",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -425,29 +425,29 @@
       }
     },
     {
-      "name": "C++ Launch toutiao-5",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/toutiao-5/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/toutiao-5",
-      "environment": [],
+      "name"           : "C++ Launch jd-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/jd-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/jd-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -455,29 +455,29 @@
       }
     },
     {
-      "name": "C++ Launch toutiao-4",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/toutiao-4/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/toutiao-4",
-      "environment": [],
+      "name"           : "C++ Launch toutiao-5",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/toutiao-5/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/toutiao-5",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -485,29 +485,29 @@
       }
     },
     {
-      "name": "C++ Launch toutiao-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/toutiao-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/toutiao-3",
-      "environment": [],
+      "name"           : "C++ Launch toutiao-4",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/toutiao-4/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/toutiao-4",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -515,29 +515,29 @@
       }
     },
     {
-      "name": "C++ Launch toutiao-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/toutiao-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/toutiao-2",
-      "environment": [],
+      "name"           : "C++ Launch toutiao-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/toutiao-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/toutiao-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -545,29 +545,29 @@
       }
     },
     {
-      "name": "C++ Launch toutiao-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/toutiao-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/toutiao-1",
-      "environment": [],
+      "name"           : "C++ Launch toutiao-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/toutiao-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/toutiao-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -575,29 +575,29 @@
       }
     },
     {
-      "name": "C++ Launch bili-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/bili-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/bili-1",
-      "environment": [],
+      "name"           : "C++ Launch toutiao-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/toutiao-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/toutiao-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -605,29 +605,59 @@
       }
     },
     {
-      "name": "C++ Launch xiecheng-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/xiecheng-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/xiecheng-3",
-      "environment": [],
+      "name"           : "C++ Launch bili-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/bili-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/bili-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
+          "debuggerPath": "/usr/bin/gdb"
+      },
+      "sourceFileMap": {
+          "/mnt/e": "e:\\"
+      }
+    },
+    {
+      "name"           : "C++ Launch xiecheng-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/xiecheng-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/xiecheng-3",
+      "environment"    : [],
+      "externalConsole": true,
+      "windows"        : {
+          "MIMode"       : "gdb",
+          "setupCommands": [
+              {
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
+                  "ignoreFailures": true
+              }
+          ]
+      },
+      "pipeTransport": {
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -635,29 +665,29 @@
       }
     },
     { 
-      "name": "C++ Launch meituan-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/d/Repository/leisures/meituan-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/d/Repository/leisures/meituan-1",
-      "environment": [],
+      "name"           : "C++ Launch meituan-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/d/Repository/leisures/meituan-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/d/Repository/leisures/meituan-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -665,29 +695,29 @@
       }
     },
     {
-      "name": "C++ Launch xiecheng-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/xiecheng-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/xiecheng-2",
-      "environment": [],
+      "name"           : "C++ Launch xiecheng-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/xiecheng-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/xiecheng-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -695,29 +725,29 @@
       }
     },
     {
-      "name": "C++ Launch meituan-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/d/Repository/leisures/meituan-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/d/Repository/leisures/meituan-2",
-      "environment": [],
+      "name"           : "C++ Launch meituan-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/d/Repository/leisures/meituan-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/d/Repository/leisures/meituan-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -725,29 +755,29 @@
       }
     },
     {
-      "name": "C++ Launch xiecheng-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/xiecheng-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/xiecheng-1",
-      "environment": [],
+      "name"           : "C++ Launch xiecheng-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/xiecheng-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/xiecheng-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -755,29 +785,29 @@
       }
     },
     {
-      "name": "C++ Launch tencent-sim-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/tencent-sim-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/tencent-sim-1",
-      "environment": [],
+      "name"           : "C++ Launch tencent-sim-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/tencent-sim-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/tencent-sim-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -785,29 +815,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-web-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-web-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-web-3",
-      "environment": [],
+      "name"           : "C++ Launch netease-web-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-web-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-web-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -815,29 +845,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-web-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-web-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-web-2",
-      "environment": [],
+      "name"           : "C++ Launch netease-web-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-web-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-web-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -845,29 +875,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-web-1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-web-1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-web-1",
-      "environment": [],
+      "name"           : "C++ Launch netease-web-1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-web-1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-web-1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -875,29 +905,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-q4",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-q4/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-q4",
-      "environment": [],
+      "name"           : "C++ Launch netease-q4",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-q4/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-q4",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -905,29 +935,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-q3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-q3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-q3",
-      "environment": [],
+      "name"           : "C++ Launch netease-q3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-q3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-q3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -935,29 +965,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-q2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-q2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-q2",
-      "environment": [],
+      "name"           : "C++ Launch netease-q2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-q2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-q2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -965,29 +995,29 @@
       }
     },
     {
-      "name": "C++ Launch netease-q1",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/netease-q1/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/netease-q1",
-      "environment": [],
+      "name"           : "C++ Launch netease-q1",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/netease-q1/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/netease-q1",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -995,29 +1025,29 @@
       }
     },
     {
-      "name": "C++ Launch split-stone",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/split-stone/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/split-stone",
-      "environment": [],
+      "name"           : "C++ Launch split-stone",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/split-stone/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/split-stone",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1025,29 +1055,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-685",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-685/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-685",
-      "environment": [],
+      "name"           : "C++ Launch leet-685",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-685/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-685",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1055,29 +1085,29 @@
       }
     },
     {
-      "name": "C++ Launch pdd-4",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/pdd-4/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/pdd-4",
-      "environment": [],
+      "name"           : "C++ Launch pdd-4",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/pdd-4/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/pdd-4",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1085,29 +1115,29 @@
       }
     },
     {
-      "name": "C++ Launch pdd-3",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/pdd-3/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/pdd-3",
-      "environment": [],
+      "name"           : "C++ Launch pdd-3",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/pdd-3/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/pdd-3",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1115,29 +1145,29 @@
       }
     },
     {
-      "name": "C++ Launch pdd-2",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/pdd-2/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/pdd-2",
-      "environment": [],
+      "name"           : "C++ Launch pdd-2",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/pdd-2/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/pdd-2",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1145,29 +1175,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-675",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-675/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-675",
-      "environment": [],
+      "name"           : "C++ Launch leet-675",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-675/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-675",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1175,29 +1205,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-668",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-668/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-668",
-      "environment": [],
+      "name"           : "C++ Launch leet-668",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-668/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-668",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1205,29 +1235,29 @@
       }
     },
     {
-      "name": "C++ Launch ali",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/ali/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/ali",
-      "environment": [],
+      "name"           : "C++ Launch ali",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/ali/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/ali",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1235,29 +1265,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-664",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-664/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-664",
-      "environment": [],
+      "name"           : "C++ Launch leet-664",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-664/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-664",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1265,29 +1295,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-week-211",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-week-211/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-week-211",
-      "environment": [],
+      "name"           : "C++ Launch hiho-week-211",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-week-211/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-week-211",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1295,29 +1325,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-639",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-639/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-639",
-      "environment": [],
+      "name"           : "C++ Launch leet-639",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-639/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-639",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1325,29 +1355,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-632",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-632/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-632",
-      "environment": [],
+      "name"           : "C++ Launch leet-632",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-632/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-632",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1355,29 +1385,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-629",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-629/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-629",
-      "environment": [],
+      "name"           : "C++ Launch leet-629",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-629/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-629",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1385,29 +1415,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-week-210",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-week-210/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-week-210",
-      "environment": [],
+      "name"           : "C++ Launch hiho-week-210",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-week-210/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-week-210",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1415,29 +1445,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-600",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-600/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-600",
-      "environment": [],
+      "name"           : "C++ Launch leet-600",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-600/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-600",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1445,29 +1475,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-587",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-587/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-587",
-      "environment": [],
+      "name"           : "C++ Launch leet-587",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-587/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-587",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1475,29 +1505,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-564",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-564/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-564",
-      "environment": [],
+      "name"           : "C++ Launch leet-564",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-564/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-564",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1505,29 +1535,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-552",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-552/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-552",
-      "environment": [],
+      "name"           : "C++ Launch leet-552",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-552/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-552",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1535,29 +1565,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-week-209",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-week-209/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-week-209",
-      "environment": [],
+      "name"           : "C++ Launch hiho-week-209",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-week-209/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-week-209",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1565,29 +1595,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-546",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-546/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-546",
-      "environment": [],
+      "name"           : "C++ Launch leet-546",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-546/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-546",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1595,29 +1625,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-517",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-517/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-517",
-      "environment": [],
+      "name"           : "C++ Launch leet-517",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-517/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-517",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1625,29 +1655,29 @@
       }
     },
     {
-      "name": "C++ Launch hiho-week-208",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/hiho-week-208/main",
-      "args": ["-fThreading", "<", "input", ">", "output"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/hiho-week-208",
-      "environment": [],
+      "name"           : "C++ Launch hiho-week-208",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/hiho-week-208/main",
+      "args"           : ["-fThreading", "<", "input", ">", "output"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/hiho-week-208",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
@@ -1655,29 +1685,29 @@
       }
     },
     {
-      "name": "C++ Launch leet-514",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "/mnt/e/Repository/leisures/leet-514/main",
-      "args": ["-fThreading"],
-      "stopAtEntry": false,
-      "cwd": "/mnt/e/Repository/leisures/leet-514",
-      "environment": [],
+      "name"           : "C++ Launch leet-514",
+      "type"           : "cppdbg",
+      "request"        : "launch",
+      "program"        : "/mnt/e/Repository/leisures/leet-514/main",
+      "args"           : ["-fThreading"],
+      "stopAtEntry"    : false,
+      "cwd"            : "/mnt/e/Repository/leisures/leet-514",
+      "environment"    : [],
       "externalConsole": true,
-      "windows": {
-          "MIMode": "gdb",
+      "windows"        : {
+          "MIMode"       : "gdb",
           "setupCommands": [
               {
-                  "description": "Enable pretty-printing for gdb",
-                  "text": "-enable-pretty-printing",
+                  "description"   : "Enable pretty-printing for gdb",
+                  "text"          : "-enable-pretty-printing",
                   "ignoreFailures": true
               }
           ]
       },
       "pipeTransport": {
-          "pipeCwd": "",
-          "pipeProgram": "C:\\Windows\\System32\\bash.exe",
-          "pipeArgs": ["-c"],
+          "pipeCwd"     : "",
+          "pipeProgram" : "C:\\Windows\\System32\\bash.exe",
+          "pipeArgs"    : ["-c"],
           "debuggerPath": "/usr/bin/gdb"
       },
       "sourceFileMap": {
